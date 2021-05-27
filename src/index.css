@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Roboto',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Roboto',
+  sans-serif;
+}
+
+.textbox{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.signinbutton{
+  color: #fff;
+  background-color: #408313;
+  border-color: #408313;
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #408313;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.text {
+    text-align: center;
+    overflow: hidden;
+}
+
+.textalign {
+  text-align: center;
+  margin: 20px 0 -10px 0;
+  overflow: hidden;
+}  
+
+
+.checkboxbutton{
+      margin: 3px 12px 3px 0;
+      box-sizing: border-box;
+      position: relative;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      background-color: inherit;
+}
+
+.checkboxlabel{
+  margin: 15px 0px 15px 0px;
+}
+
+.linkstyle{
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.errormessage{
+  color: red;
+  font-size: 15px;
+  margin-top: -7px;
+  margin-bottom: 15px;
+}
+
+.labelstyels{
+  font-weight: bold;
+}
