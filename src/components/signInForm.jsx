@@ -15,7 +15,7 @@ class SignInForm extends Component {
     //Defining the schema for input validation
     schema = {
         email: Joi.string().required().email().label('Email'),
-        password: Joi.string().required().label('Password')
+        password: Joi.string().required().min(5).label('Password')
     };
 
     //This method is used to validate the input fields
